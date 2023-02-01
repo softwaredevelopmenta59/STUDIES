@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <script type="text/javascript" src="vue2.js"></script>
+</head>
+<body>
+   
+    <script>
+        var myObject = new Vue({el:'#app', data:{message1:"Hello SOD"}, 
+        {message2:"Hello vue"},
+        {message3:"High SOD"}});
+
+    </script>
+     <p  id="app">
+        First Message: <input v-model="message1"><br>
+        Second Message:<input v-model=" "><br>
+        Third Message: <input v-model="message3">
+     </p>
+    
+</body>
+</html>

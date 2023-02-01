@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles/formula_styles.css">
+
+	<script type="text/javascript">
+
+		var a,b,c;
+		function setValues1()
+		{
+			a = Number(document.getElementById("a").value);
+			b = Number(document.getElementById("b").value);
+			c = Number(document.getElementById("c").value);
+		}
+
+		function and()
+		{
+			setValues1();
+			result1 = (-b + Math.sqrt(b*b -4*a*c))/(2*a);
+			result2 = (-b - Math.sqrt(b*b -4*a*c))/(2*a);
+			alert("The volume of this cube is " +result1 + " and " +result2);
+		}
+
+	</script>
+
+</head>
+<body>
+
+<nav>
+	<a href="index.html">Home</a> // <a href="levels.html">Grade Levels</a>
+</nav>
+
+<div id="container">
+	<div id="formula">	
+		<input type="text" id="a" placeholder="'A' Variable"/><br>
+		<input type="text" id="b" placeholder="'B' Variable"/><br>
+		<input type="text" id="c" placeholder="'C' Variable"/><br>
+		<input type="button" onclick="and()" value="Calculate!"/>
+	</div>
+
+</div>
+</body>
+</html>
+document.getElementById("results").innerHTML = "The volume of this cube is " +result1 + " and " +result2;

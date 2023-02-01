@@ -1,0 +1,92 @@
+*{
+    background-color:rgb(238, 188, 94) ;
+}
+.log-in{
+    margin-left: 600px;
+    margin-top: 100px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: darkorange;
+    width: 250px;
+    height: 350px;
+}
+label{
+    font-size: 25px;
+    background-color: darkorange;
+    
+}
+input{
+    height: 3.5vh;
+    width: 33vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    color: white;
+}
+.gd{
+    width: 80px;
+    border-radius: 5px;
+    background-color: white ;
+    border-color: aliceblue;
+    color: #fff;
+
+}
+form{
+    background-color: darkorange;
+}
+h1{
+    background-color: darkorange;
+}
+button{
+    width: 80px;
+    border-radius: 15px;
+    background-color: #fff;
+    border-color: rgb(238, 188, 94);
+    color: darkgoldenrod;
+    height: 30px;
+    
+}
+.log{
+    width: 260px;
+    border-radius: 15px;
+    background-color: darkorange;
+    display: flex;
+}
+button:hover{
+    width: 80px;
+    border-radius: 15px;
+    background-color: darkgoldenrod;
+    border-color: rgb(238, 188, 94);
+    color: #fff;
+    height: 30px;
+}
+.but{
+    background-color: darkorange;
+    margin-left: 80px;
+}
+.but button{
+    background-color: red;
+}
+.sign{
+    background-color: darkorange;
+    margin-left: 3vh;
+    padding: 10px;
+}
+a{
+    background-color: darkorange;
+}
+a:hover{
+    color: #fff;
+}
+p{
+    color: #fff;
+    margin-left: none;
+    background-color: darkorange;
+}
+.sign a{
+    color: red;
+    padding: 15px;
+    font-size: 20px;
+    
+}
